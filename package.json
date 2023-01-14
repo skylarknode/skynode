@@ -1,0 +1,48 @@
+{
+  "author": [
+    {
+      "name": "lwf",
+      "email": "lwf@tech.hudaokeji.com",
+      "web": "http://www.hudaokeji.com"
+    }
+  ],
+  "name": "skynode",
+  "description": "The skynode application runtime and development toolkits",
+  "main": "./index",
+  "version": "0.9.0",
+  "preferGlobal": "true",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/skylarknode/skynode.git"
+  },
+  "scripts": {},
+  "dependencies": {
+    "autoprefixer": "^10.x",
+    "async": "^3.x",
+    "cli-graph": "^3.x",
+    "commander": "^9.x",
+    "daemon": "^1.x",
+    "less": "^3.x",
+    "lodash": "^4.x",
+    "logrotate-stream": "~0",
+    "nconf": "~0",
+    "postcss": "^8.0.0",
+
+    "uglify-es": "^3.x",
+    "skylark-langx": "github:skylark-langx/skylark-langx",
+    "skynode-basis": "github:skylarknode/skynode-basis",
+    "skynode-nfs": "github:skylarknode/skynode-nfs",
+    "skynode-server": "github:skylarknode/skynode-server",
+    "skynode-ufs": "github:skylarknode/skynode-ufs",
+     "winston": "^3.x"
+
+  },
+  "bin": {
+    "snode": "./bin/index.js"
+  },
+  "engines": {
+    "node": ">8"
+  },
+  "license": "MIT"
+}
