@@ -22,6 +22,7 @@
     "async": "^3.x",
     "cli-graph": "^3.x",
     "commander": "^9.x",
+    "cron": "^2.x",
     "daemon": "^1.x",
     "less": "^3.x",
     "lodash": "^4.x",
@@ -35,7 +36,8 @@
     "skynode-nfs": "github:skylarknode/skynode-nfs",
     "skynode-server": "github:skylarknode/skynode-server",
     "skynode-ufs": "github:skylarknode/skynode-ufs",
-     "winston": "^3.x"
+    "validator": "^13.x",
+    "winston": "^3.x"
 
   },
   "bin": {

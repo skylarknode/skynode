@@ -1,20 +1,20 @@
 #!/usr/bin/env node
-'use strict';
 
 require("amd-loader");
 
 var nfs = require('skynode-nfs');
-
 var winston = require('winston');
-var nconf = require('skynode-basis/system/configures');
 
+var paths = require('../lib/helpers/paths');
 
-var dirname = require('../lib/helpers/paths').baseDir,
-	configFile = require('../lib/helpers/paths').config;
+var baseDir = paths.baseDir,
+	configFile = paths.config;
 
 var pkg = require('../package.json');
-var file = require('skynode-basis/file');
-var paths = require('../lib/helpers/paths');
+
+require(baseDir+"/system");
+var nconf = system.require('skynode-basis/system/configures');
+
 
 
 function setupWinston() {
@@ -103,10 +103,10 @@ function setupConfig() {
 	
 
 	nconf.defaults({
-		base_dir: dirname,
-		themes_path: nfs.join(dirname, 'node_modules'),
+		base_dir: baseDir,
+		themes_path: nfs.join(baseDir, 'node_modules'),
 		upload_path: 'uploads',	
-		views_dir: nfs.join(dirname, 'build/public/templates'),
+		views_dir: nfs.join(baseDir, 'build/public/templates'),
 		version: pkg.version
 	});
 
@@ -118,16 +118,16 @@ function setupConfig() {
 	nconf.set('isPrimary', isPrimary === undefined ? 'true' : isPrimary);
 
 	// Ensure themes_path is a full filepath
-	nconf.set('themes_path', nfs.resolve(dirname, nconf.get('themes_path')));
-	//nconf.set('core_templates_path', nfs.join(dirname, 'src/views'));
-	nconf.set('core_templates_path', nfs.join(dirname, 'slax/src/templates'));
+	nconf.set('themes_path', nfs.resolve(baseDir, nconf.get('themes_path')));
+	//nconf.set('core_templates_path', nfs.join(baseDir, 'src/views'));
+	nconf.set('core_templates_path', nfs.join(baseDir, 'slax/src/templates'));
 	nconf.set('base_templates_path', nfs.join(nconf.get('themes_path'), 'nodebb-theme-persona/templates'));
 
 	nconf.set('upload_path', nfs.resolve(nconf.get('base_dir'), nconf.get('upload_path')));
 }
 
 // check to make sure dependencies are installed
-if (!nfs.existsSync(nfs.join(dirname, 'package.json'))){
+if (!nfs.existsSync(nfs.join(baseDir, 'package.json'))){
 	console.warn('package.json not found.');
 	console.log('Populating package.json...');
 
