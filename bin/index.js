@@ -99,10 +99,12 @@ function setupConfig() {
 		file: paths.config
 	});
 
+	
+
 	nconf.defaults({
 		base_dir: dirname,
 		themes_path: nfs.join(dirname, 'node_modules'),
-		upload_path: 'uploads',
+		upload_path: 'uploads',	
 		views_dir: nfs.join(dirname, 'build/public/templates'),
 		version: pkg.version
 	});
@@ -121,9 +123,6 @@ function setupConfig() {
 	nconf.set('base_templates_path', nfs.join(nconf.get('themes_path'), 'nodebb-theme-persona/templates'));
 
 	nconf.set('upload_path', nfs.resolve(nconf.get('base_dir'), nconf.get('upload_path')));
-
-	console.log("core_templates_path:" + nconf.get("core_templates_path"));
-
 }
 
 // check to make sure dependencies are installed
