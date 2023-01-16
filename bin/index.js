@@ -13,7 +13,7 @@ var baseDir = paths.baseDir,
 var pkg = require('../package.json');
 
 require(baseDir+"/system");
-var nconf = system.require('skynode-basis/system/configures');
+var nconf = system.require('skynode-basis/system/parameters');
 
 
 
