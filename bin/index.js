@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-require("amd-loader");
+require("skynode-define");
 
 var nfs = require('skynode-nfs');
 var winston = require('winston');

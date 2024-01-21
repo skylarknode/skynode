@@ -31,6 +31,7 @@
     "postcss": "^8.0.0",
 
     "uglify-es": "^3.x",
+    "skynode-define": "git+https://github.com/skylarknode/skynode-define.git",
     "skylark-langx": "github:skylark-langx/skylark-langx",
     "skynode-basis": "github:skylarknode/skynode-basis",
     "skynode-nfs": "github:skylarknode/skynode-nfs",
