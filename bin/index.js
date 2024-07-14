@@ -153,6 +153,8 @@ program
 
 setupConfig();
 
+console.log("database:" + nconf.get("database"));
+
 setupWinston();
 
 var env = program.dev ? 'development' : (process.env.NODE_ENV || 'production');
