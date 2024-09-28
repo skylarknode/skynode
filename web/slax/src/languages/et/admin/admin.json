@@ -1,0 +1,7 @@
+{
+	"alert.confirm-rebuild-and-restart": "Are you sure you wish to rebuild and restart SkyBB?",
+	"alert.confirm-restart": "Oled kindel, et soovid taaslaadida SkyBB?",
+
+	"acp-title": "%1 | SkyBB Administraatori kontrollpaneel",
+	"settings-header-contents": "Sisu"
+}

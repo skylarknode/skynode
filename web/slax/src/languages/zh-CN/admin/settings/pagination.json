@@ -1,0 +1,10 @@
+{
+	"pagination":"分页设置",
+	"enable":"使用分页替代无限滚动浏览。",
+	"topics":"话题分页",
+	"posts-per-page":"每页发布数",
+	"max-posts-per-page":"每页最多发布数",
+	"categories":"目录分页",
+	"topics-per-page":"每页主题数",
+	"max-topics-per-page":"每页最多主题数"
+}

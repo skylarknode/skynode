@@ -1,0 +1,11 @@
+{
+    "checking-for-installed": "Yüklü temalar kontrol ediliyor...",
+    "homepage": "Anasayfa",
+    "select-theme": "Tema Seç",
+    "current-theme": "Geçerli Tema",
+    "no-themes": "Yüklü tema bulunamadı",
+    "revert-confirm": "Varsayılan SkyBB temasını geri yüklemek istediğinizden emin misiniz?",
+    "theme-changed": "Tema Değiştirildi",
+    "revert-success": "SkyBB'nin varsayılan temasına başarıyla geri dönüş yaptınız.",
+    "restart-to-activate": "68/5000\nBu temayı tamamen etkinleştirmek için SkyBB'nizi lütfen yeniden oluşturun ve yeniden başlatın."
+}

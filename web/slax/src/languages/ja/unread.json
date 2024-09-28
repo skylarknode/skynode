@@ -1,0 +1,15 @@
+{
+    "title": "未読",
+    "no_unread_topics": "未読のトピックはありません。",
+    "load_more": "もっと見る",
+    "mark_as_read": "既読にする",
+    "selected": "選択済み",
+    "all": "全て",
+    "all_categories": "全てのカテゴリ",
+    "topics_marked_as_read.success": "すべてのトピックを既読にしました。",
+    "all-topics": "すべてのトピック",
+    "new-topics": "新しいトピック",
+    "watched-topics": "ウォッチ済みのトピック",
+    "unreplied-topics": "Unreplied Topics",
+    "multiple-categories-selected": "Multiple Selected"
+}

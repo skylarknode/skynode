@@ -1,0 +1,72 @@
+{
+    "name": "client",
+    "title": "client page",
+    "runtime": {
+        "skylark-slax-runtime/skylark": {
+            "version": "0.9.5"
+        },
+        "baseUrl" : "/",
+        "waitSeconds": 0,
+        "urlArgs":  "${config['cache-buster']}",
+        "packages" : [
+            {
+                "name" : "skylark-ace", 
+                "location" : "${baseUrl}/skylark-ace"
+            }
+        ],
+        "paths": {
+            "plugins": "../../plugins"
+        },
+        "map": {
+            "*": {
+                "admin": "slax-skybb-admin",
+                "forum" : "slax-skybb-client",
+                "mousetrap": "skylark-mousetrap",
+                "cropper" : "skylark-cropperjs",
+                "zxcvbn" : "skylark-zxcvbn",
+                "clipboard" : "skylark-clipboard",
+                "Chart": "skylark-chartjs",
+                "benchpress": "skylark-benchpress",
+                "jquery": "skylark-jquery",
+                "jQuery": "skylark-jquery",
+                "jqueryui" : "skylark-jqueryui",
+                "ace" : "skylark-ace",
+                "alerts" : "slax-skybb-base/misc/alerts",
+                "autocomplete" : "slax-skybb-base/misc/autocomplete",
+                "chat" : "slax-skybb-base/misc/chat",
+                "components" : "slax-skybb-base/misc/components",
+                "coverPhoto" : "slax-skybb-base/misc/coverPhoto",
+                "flags" : "slax-skybb-base/misc/flags",
+                "iconSelect" : "slax-skybb-base/misc/iconSelect",
+                "infinitescroll" : "slax-skybb-base/misc/infinitescroll",
+                "navigator" : "slax-skybb-base/misc/navigator",
+                "notifications" : "slax-skybb-base/misc/notifications",
+                "pagination" : "slax-skybb-base/misc/pagination",
+                "pictureCropper" : "slax-skybb-base/misc/pictureCropper",
+                "search" : "slax-skybb-base/misc/search",
+                "scrollStop" : "slax-skybb-base/misc/scrollStop",
+                "settings" : "slax-skybb-base/misc/settings",
+                "share" : "slax-skybb-base/misc/share",
+                "sort" : "slax-skybb-base/misc/sort",
+                "sounds" : "slax-skybb-base/misc/sounds",
+                "storage" : "slax-skybb-base/misc/storage",
+                "taskbar" : "slax-skybb-base/misc/taskbar",
+                "translator" : "slax-skybb-base/misc/translator",
+                "uploader" : "slax-skybb-base/misc/uploader"            
+            }
+        }
+    },
+    "spaModule": "slax-skybb-base/pagex/page",
+    "page": {
+        "routeViewer": "#content"
+    },
+    "plugins": {
+        "app": {
+            "hookers": "starting started",
+            "controller": {
+                "type": "slax-skybb-admin/pagex/app_controller"
+            }
+        }
+    },
+    "routesPath": "./routes.json"
+}

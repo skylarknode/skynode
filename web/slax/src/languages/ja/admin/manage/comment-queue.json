@@ -1,0 +1,11 @@
+{
+	"comment-queue": "Comment Queue",
+	"description": "There are no comments in the comment queue. <br> To enable this feature, go to <a href=\"%1\">Settings &rarr; Comment &rarr; Commenting Restrictions</a> and enable <strong>Comment Queue</strong>.",
+	"user": "User",
+	"category": "Category",
+	"title": "Title",
+	"content": "Content",
+	"commented": "Commented",
+	"reply-to": "Reply to \"%1\"",
+	"content-editable": "You can click on individual content to edit before commenting."
+}

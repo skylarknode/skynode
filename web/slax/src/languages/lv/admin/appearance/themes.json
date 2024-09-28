@@ -1,0 +1,11 @@
+{
+    "checking-for-installed": "Pārbauda instalētās tēmas...",
+    "homepage": "Sākumlapa",
+    "select-theme": "Atlasīt tēmu",
+    "current-theme": "Pašreizējā tēma",
+    "no-themes": "Nav instalēto tēmu",
+    "revert-confirm": "Vai tiešām vēlies atjaunot noklusējamo SkyBB tēmu?",
+    "theme-changed": "Tēma ir mainīta",
+    "revert-success": "SkyBB veiksmīgi atgriezts atpakaļ uz tā noklusējuma tēmu.",
+    "restart-to-activate": "Lūdzu, pārkompilēt un pārstartēt SkyBB, lai pilnībā aktivizētu tēmu."
+}

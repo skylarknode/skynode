@@ -1,0 +1,11 @@
+{
+    "checking-for-installed": "Prüfe auf installierte Themes...",
+    "homepage": "Homepage",
+    "select-theme": "Wähle Theme",
+    "current-theme": "Aktuelles Theme",
+    "no-themes": "Keine installierten Theme gefunden.",
+    "revert-confirm": "Bist du dir sicher, dass du das standard SkyBB Theme wieder herstellen willst?",
+    "theme-changed": "Theme geändert",
+    "revert-success": "Du hast dein SkyBB erfolgreich wieder auf das Standard-Theme zurückgesetzt.",
+    "restart-to-activate": "Bitte baue und starte SkyBB neu um das Theme zu aktivieren."
+}

@@ -1,0 +1,22 @@
+{
+	"icon": "Icona:",
+	"change-icon": "modifica",
+	"route": "Percorso:",
+	"tooltip": "Tooltip:",
+	"text": "Testo:",
+	"text-class": "Text Class: <small>optional</small>",
+	"id": "ID: <small>optional</small>",
+
+	"properties": "Proprietà:",
+	"groups": "Groups:",
+	"open-new-window": "Open in a new window",
+
+	"btn.delete": "Elimina",
+	"btn.disable": "Disabilita",
+	"btn.enable": "Abilita",
+
+	"available-menu-items": "Available Menu Items",
+	"custom-route": "Custom Route",
+	"core": "core",
+	"plugin": "plugin"
+}

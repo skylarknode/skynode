@@ -1,0 +1,7 @@
+{
+	"alert.confirm-rebuild-and-restart": "Are you sure you wish to rebuild and restart SkyBB?",
+	"alert.confirm-restart": "Er du sikker på at du ønsker at genstarte SkyBB?",
+
+	"acp-title": "%1 | SkyBB Admin Kontrol Panel",
+	"settings-header-contents": "Indhold"
+}

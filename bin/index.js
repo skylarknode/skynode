@@ -124,6 +124,9 @@ function setupConfig() {
 	nconf.set('base_templates_path', nfs.join(nconf.get('themes_path'), 'nodebb-theme-persona/templates'));
 
 	nconf.set('upload_path', nfs.resolve(nconf.get('base_dir'), nconf.get('upload_path')));
+
+	nconf.set(nconf.get("database"),nconf.get("databases:" + nconf.get("database")));
+	nconf.set("redis",nconf.get("databases:redis"));//modified by lwf //TODO
 }
 
 // check to make sure dependencies are installed

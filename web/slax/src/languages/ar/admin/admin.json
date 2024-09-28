@@ -1,0 +1,7 @@
+{
+	"alert.confirm-rebuild-and-restart": "Are you sure you wish to rebuild and restart SkyBB?",
+	"alert.confirm-restart": "هل تريد بالتأكيد إعادة تشغيل SkyBB؟",
+
+	"acp-title": "لوحة تحكم إدارة SkyBB | %1",
+	"settings-header-contents": "محتويات"
+}

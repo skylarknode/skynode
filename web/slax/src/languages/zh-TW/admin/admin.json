@@ -1,0 +1,7 @@
+{
+	"alert.confirm-rebuild-and-restart": "確認重建並重啟SkyBB？",
+	"alert.confirm-restart": "確認重啟SkyBB？",
+
+	"acp-title": "%1 | SkyBB 管理控制面板",
+	"settings-header-contents": "内容"
+}

@@ -1,0 +1,24 @@
+define([
+	"skylark-jquery",
+	'slax-skybb-base/misc/sounds', 
+	'slax-skybb-base/misc/settings', 
+	'../settings'
+], function ($,Sounds, Settings, AdminSettings) {
+	'use strict';
+	var	SoundsAdmin = {};
+
+	SoundsAdmin.init = function () {
+		// Sounds tab
+		$('.sounds').find('button[data-action="play"]').on('click', function (e) {
+			e.preventDefault();
+
+			var	soundName = $(this).parent().parent().find('select')
+				.val();
+			Sounds.playSound(soundName);
+		});
+
+		AdminSettings.prepare();
+	};
+
+	return SoundsAdmin;
+});

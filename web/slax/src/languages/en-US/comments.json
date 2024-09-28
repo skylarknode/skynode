@@ -1,0 +1,11 @@
+{
+    "list.title" : "All Comments",
+    "list.sort"  : "Sort",
+    "comment.write" : "Comment",
+    "comment.reply" : "reply",
+    "comment.send" : "Send",
+    "commment.cancel" : "Cancel",
+    "comment.placeholder": "Please input comment",
+    "comment.quote": "Quote"
+
+}

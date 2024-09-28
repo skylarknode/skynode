@@ -1,0 +1,7 @@
+{
+	"alert.confirm-rebuild-and-restart": "Ви впевнені, що хочете перебудувати та перезавантажити SkyBB?",
+	"alert.confirm-restart": "Ви впевнені, що бажаєте перезавантажити SkyBB?",
+
+	"acp-title": "%1 | Адмінська Панель Керування SkyBB",
+	"settings-header-contents": "Зміст"
+}

@@ -1,0 +1,7 @@
+{
+	"alert.confirm-rebuild-and-restart": "Ste si istý, že chcete znova zostaviť a reštartovať SkyBB?",
+	"alert.confirm-restart": "Ste si naozaj istý/á, že chcete reštartovať SkyBB?",
+
+	"acp-title": "Ovládací panel administrátora %1 | SkyBB ",
+	"settings-header-contents": "Obsah"
+}

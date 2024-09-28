@@ -1,0 +1,7 @@
+{
+	"alert.confirm-rebuild-and-restart": "SkyBBを再構築して再起動してもよろしいですか？",
+	"alert.confirm-restart": "SkyBBを本当に再起動しますか？",
+
+	"acp-title": "%1| SkyBB管理画面",
+	"settings-header-contents": "コンテンツ"
+}

@@ -1,0 +1,7 @@
+{
+	"alert.confirm-rebuild-and-restart": "Bạn có chắc chắn muốn xây lại và khởi động lại SkyBB?",
+	"alert.confirm-restart": "Bạn có thật sự muốn khởi động lại SkyBB",
+
+	"acp-title": "%1 | Bảng điểu khiển",
+	"settings-header-contents": "Nội dung"
+}
