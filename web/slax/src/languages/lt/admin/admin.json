@@ -1,7 +1,0 @@
-{
-	"alert.confirm-rebuild-and-restart": "Are you sure you wish to rebuild and restart SkyBB?",
-	"alert.confirm-restart": "Ar tikrai norite perkrauti SkyBB?",
-
-	"acp-title": "%1 | SkyBB Admin Control Panel",
-	"settings-header-contents": "Contents"
-}

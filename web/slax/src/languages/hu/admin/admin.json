@@ -1,7 +1,0 @@
-{
-	"alert.confirm-rebuild-and-restart": "Biztosan újra kívánod építeni majd újraindítod a SkyBB-t?",
-	"alert.confirm-restart": "Biztosan újra szeretnéd indítani a SkyBB-t?",
-
-	"acp-title": "%1 | SkyBB Adminisztrációs vezérlőpult",
-	"settings-header-contents": "Tartalmak"
-}

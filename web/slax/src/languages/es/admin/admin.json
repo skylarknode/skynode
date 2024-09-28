@@ -1,7 +1,0 @@
-{
-	"alert.confirm-rebuild-and-restart": "¿Está seguro que desea reconstruir y reiniciar SkyBB?",
-	"alert.confirm-restart": "¿Está seguro que desea reiniciar SkyBB?",
-
-	"acp-title": "%1 | Panel de control de administrador SkyBB",
-	"settings-header-contents": "Contenidos"
-}

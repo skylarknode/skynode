@@ -1,7 +1,0 @@
-{
-	"alert.confirm-rebuild-and-restart": "Bist du sicher, dass du SkyBB neu bauen und neu starten möchtest?",
-	"alert.confirm-restart": "Bist du sicher, dass du SkyBB neu starten möchtest?",
-
-	"acp-title": "%1 | SkyBB Admin Systemsteuerung",
-	"settings-header-contents": "Inhalte"
-}

@@ -1,7 +1,0 @@
-{
-	"alert.confirm-rebuild-and-restart": "Weet u zeker dat u de SkyBB bestanden wilt hergenereren en SkyBB opnieuw wilt opstarten?",
-	"alert.confirm-restart": "Weet u zeker dat u SkyBB opnieuw wilt opstarten?",
-
-	"acp-title": "%1 | SkyBB Administrator Controlepaneel",
-	"settings-header-contents": "Inhoud"
-}
